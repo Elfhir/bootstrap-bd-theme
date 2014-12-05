@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'obelixprobrokenregular';
+    src: url('obelixpro-broken-cyr-webfont.eot');
+    src: url('obelixpro-broken-cyr-webfont.eot?#iefix') format('embedded-opentype'),
+         url('obelixpro-broken-cyr-webfont.woff2') format('woff2'),
+         url('obelixpro-broken-cyr-webfont.woff') format('woff'),
+         url('obelixpro-broken-cyr-webfont.ttf') format('truetype'),
+         url('obelixpro-broken-cyr-webfont.svg#obelixprobrokenregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

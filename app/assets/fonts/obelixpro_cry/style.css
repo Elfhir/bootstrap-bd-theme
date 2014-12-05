@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'obelixprocryregular';
+    src: url('obelixpro-cry-cyr-webfont.eot');
+    src: url('obelixpro-cry-cyr-webfont.eot?#iefix') format('embedded-opentype'),
+         url('obelixpro-cry-cyr-webfont.woff2') format('woff2'),
+         url('obelixpro-cry-cyr-webfont.woff') format('woff'),
+         url('obelixpro-cry-cyr-webfont.ttf') format('truetype'),
+         url('obelixpro-cry-cyr-webfont.svg#obelixprocryregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

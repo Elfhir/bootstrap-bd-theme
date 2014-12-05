@@ -1,0 +1,181 @@
+/**
+ * Theme : BD (Comics in french)
+ * Author : Elfhir
+ * Informations :
+ * 		This stylesheet is composed of reusable classes for styling your content.
+ * 		It aims the same goals as Twitter Bootstrap : styling with classes,
+ * 		styling easy for "Application Developer" (essentially not Front-End, Webdesigner) ; 
+ * 		However, its philosophy suits well for web front end developement.
+ *
+ * 		All specific styles specific to the theme are "bd-" prefixed.
+ * 		Some classes are bootstrap override, and some are basic style.
+ * 	Licence : Artistic 2.0
+ */
+/* Fonts from fontsquirrel or dafont. Please, if using it, credits their authors */
+@font-face {
+    font-family: 'obelixproregular';
+    src: url('../assets/fonts/obelixpro/obelixpro-cyr-webfont.eot');
+    src: url('../assets/fonts/obelixpro/obelixpro-cyr-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/obelixpro/obelixpro-cyr-webfont.woff2') format('woff2'),
+         url('../assets/fonts/obelixpro/obelixpro-cyr-webfont.woff') format('woff'),
+         url('../assets/fonts/obelixpro/obelixpro-cyr-webfont.ttf') format('truetype'),
+         url('../assets/fonts/obelixpro/obelixpro-cyr-webfont.svg#obelixproregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'obelixprocryregular';
+    src: url('../assets/fonts/obelixpro_cry/obelixpro-cry-cyr-webfont.eot');
+    src: url('../assets/fonts/obelixpro_cry/obelixpro-cry-cyr-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/obelixpro_cry/obelixpro-cry-cyr-webfont.woff2') format('woff2'),
+         url('../assets/fonts/obelixpro_cry/obelixpro-cry-cyr-webfont.woff') format('woff'),
+         url('../assets/fonts/obelixpro_cry/obelixpro-cry-cyr-webfont.ttf') format('truetype'),
+         url('../assets/fonts/obelixpro_cry/obelixpro-cry-cyr-webfont.svg#obelixprocryregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'obelixprobrokenregular';
+    src: url('../assets/fonts/obelixpro_broken/obelixpro-broken-cyr-webfont.eot');
+    src: url('../assets/fonts/obelixpro_broken/obelixpro-broken-cyr-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/obelixpro_broken/obelixpro-broken-cyr-webfont.woff2') format('woff2'),
+         url('../assets/fonts/obelixpro_broken/obelixpro-broken-cyr-webfont.woff') format('woff'),
+         url('../assets/fonts/obelixpro_broken/obelixpro-broken-cyr-webfont.ttf') format('truetype'),
+         url('../assets/fonts/obelixpro_broken/obelixpro-broken-cyr-webfont.svg#obelixprobrokenregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'autour_oneregular';
+    src: url('../assets/fonts/Autour-one/autourone-regular-webfont.eot');
+    src: url('../assets/fonts/Autour-one/autourone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/Autour-one/autourone-regular-webfont.woff2') format('woff2'),
+         url('../assets/fonts/Autour-one/autourone-regular-webfont.woff') format('woff'),
+         url('../assets/fonts/Autour-one/autourone-regular-webfont.ttf') format('truetype'),
+         url('../assets/fonts/Autour-one/autourone-regular-webfont.svg#autour_oneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body, html {
+	font-family: 'autour_oneregular', Verdana, sans-serif;
+}
+
+a {
+	color: #F07150;
+}
+
+a:hover, a:focus, a:active {
+	color: #CD6044;
+	text-decoration: none;
+}
+
+.bd-color-1 {
+	color: #F07150;
+}
+
+.bd-color-2 {
+	color: #CD6044;
+}
+
+.bd-font-1 {
+	font-family: 'autour_oneregular', Verdana, sans-serif;
+}
+
+.bd-font-2 {
+	font-family: 'obelixproregular', Verdana, sans-serif;
+}
+
+.bd-font-3 {
+	font-family: 'obelixprocryregular', Verdana, sans-serif;
+}
+
+.bd-font-4 {
+	font-family: 'obelixprobrokenregular', Verdana, sans-serif;
+}
+
+/* Pattern from subtle patterns ; please, credits their authors */
+.bd-pattern-1 {
+	background: url('../assets/patterns/old_mathematics.png') repeat;
+}
+
+.bd-pattern-2 {
+	background: url('../assets/patterns/diagmonds.png') repeat;
+	color: #dddddd;
+}
+
+.bd-pattern-3 {
+	background: url('../assets/patterns/bordeaux.png') repeat;
+	color: #454545;
+}
+
+.bd-box-shadow-inset {
+	-webkit-box-shadow:inset 0 0 10px 5px rgba(0,0,0,0.5);
+			box-shadow:inset 0 0 10px 5px rgba(0,0,0,0.5);
+}
+
+.bd-box-shadow-outset {
+	-webkit-box-shadow: 0 0 10px 5px rgba(0,0,0,0.5);
+			box-shadow: 0 0 10px 5px rgba(0,0,0,0.5);
+}
+
+.bd-box-rounded {
+	-webkit-border-radius: 10px 10px 10px 10px;
+			border-radius: 10px 10px 10px 10px;
+}
+
+
+/* Images by Vecteezy, on deviantart.*/
+.bd-facebook {
+	background: url('../assets/icons/vecteezy/Set-3/PNG/9.png') no-repeat center;
+}
+.bd-facebook span {
+	opacity: 0;
+}
+
+.bd-twitter {
+	background: url('../assets/icons/vecteezy/Set-3/PNG/10.png') no-repeat center;
+}
+.bd-twitter span {
+	opacity: 0;
+}
+
+.bd-googleplus {
+	background: url('../assets/icons/vecteezy/Set-3/PNG/11.png') no-repeat center;
+}
+.bd-googleplus span {
+	opacity: 0;
+}
+
+.bd-pinterest {
+	background: url('../assets/icons/vecteezy/Set-3/PNG/12.png') no-repeat center;
+}
+.bd-pinterest span {
+	opacity: 0;
+}
+
+/* Override Bootstrap */
+
+.btn-primary {
+	background: #F07150;
+	border-color: #CD6044;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+	background: #CD6044;
+	border-color: #454545;
+}
+
+
+.form-control:focus {
+  border-color: #CD6044;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(205, 96, 68, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(205, 96, 68, .6);
+}
