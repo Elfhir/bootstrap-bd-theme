@@ -9,7 +9,7 @@ Le projet a été généré par le générateur **Yeoman pour Webapp**.
 
 
 Un lien vers le projet en ligne est disponible ici :
-http://lab.jeremy-ta.fr/bootstrap-theme/3.2.0/bd-theme/
+http://bootstrap.jeremy-ta.fr/bd/
 
 Ce projet n'est pas :
 
